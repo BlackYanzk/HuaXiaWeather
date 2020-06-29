@@ -11,6 +11,7 @@ import org.json.JSONObject;
 import zjut.edu.huaxiaweather.db.City;
 import zjut.edu.huaxiaweather.db.County;
 import zjut.edu.huaxiaweather.db.Province;
+import zjut.edu.huaxiaweather.gson.Weather;
 
 public class Utility {
     /**
@@ -84,7 +85,7 @@ public class Utility {
     /**
      * 将返回的JSON数据解析成Weather实体类
      */
-   /* public static Weather handleWeatherResponse(String response) {
+    public static Weather handleWeatherResponse(String response) {
         try {
             JSONObject jsonObject = new JSONObject(response);
             JSONArray jsonArray = jsonObject.getJSONArray("HeWeather");
@@ -94,5 +95,5 @@ public class Utility {
             e.printStackTrace();
         }
         return null;
-    }*/
+    }
 }
