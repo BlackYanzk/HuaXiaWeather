@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+
+    <dbname value="huaxia_weather" />
+
+    <version value="1" />
+
+    <list>
+        <mapping class="zjut.edu.huaxiaweather.db.Province" />
+        <mapping class="zjut.edu.huaxiaweather.db.City" />
+        <mapping class="zjut.edu.huaxiaweather.db.County" />
+    </list>
+
+</litepal>
